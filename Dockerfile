@@ -9,7 +9,7 @@
 #
 FROM alpine:latest
 
-RUN apk --no-cache add tor
+RUN apk add --update --no-cache tor
 
 # expose socks port
 EXPOSE 9050
